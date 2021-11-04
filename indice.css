@@ -1,0 +1,23 @@
+body {
+    font-size: 36pt;
+    font-family: "Futura", sans-serif;
+}
+
+a, a:active, a:visited {
+    text-decoration: none;
+    color: paleturquoise;
+    border: 10px solid red;
+    border-radius: 10px;
+    background-color: red;
+}
+
+a:hover {
+    font-size: 133%;
+    color: azure;
+}
+
+div {
+    padding: 10%;
+    width: auto;
+    float: left;
+}

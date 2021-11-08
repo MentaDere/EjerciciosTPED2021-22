@@ -7,6 +7,7 @@ header {
     border-radius: 15px;
     text-align: center;
     font-family: Verdana, sans-serif;
+    margin-bottom: 1%;
 }
 
 h2 {
@@ -17,11 +18,15 @@ h2 {
 .flex-container {
     display: flex;
     background-color: lawngreen;
+    border-radius: 15px;
+    padding: 5%;
+    align-items: center;
     justify-content: center;
+    margin-bottom: -5%;
 }
 
 img {
-    width: 33%;
+    width: 80%;
     height: auto;
     filter: saturate(0);
 }
@@ -30,9 +35,17 @@ a:hover img {
     filter: saturate(1);
 }
 
+.fleximg1 {
+    flex-grow: 1;
+}
 
+.fleximg2 {
+    flex-grow: 1;
+    align-self: center;
+    width: 33%;
+    height: auto;
+}
 
-.flex-container > div {
-    align-items: stretch;
-    align-content: stretch;
+.fleximg3 {
+    flex-shrink: 10;
 }

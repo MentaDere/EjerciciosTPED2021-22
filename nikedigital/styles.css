@@ -1,0 +1,114 @@
+body {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+#cajaSuperior {
+    width: 100vw;
+    /* que ocupe el ancho de la pantalla */
+    height: 100vh;
+    /* para que sea cuadrada (igual a width) */
+    background-image: url(imgs/fondo.jpg);
+    background-size: contain;
+    padding: 20vw;
+}
+
+#cajaCentral {
+    height: 100vh;
+    padding: 15vw;
+    padding-bottom: 70%;
+}
+
+h1 {
+    font-size: 64px;
+    line-height: 104px;
+    font-weight: 100;
+}
+
+h2 {
+    color: darkgray;
+    font-size: 18pt;
+    padding-bottom: 20%;
+}
+
+p {
+    font-size: 36px;
+    line-height: 60px;
+    font-weight: 100;
+}
+
+ul {
+    list-style: none;
+    color: gray;
+    font-size: 18pt;   
+}
+
+#cajaInferior {
+    height: 200vh;
+    background-color: black;
+}
+
+ol {
+    list-style: none;
+    font-size: 50px;
+    font-weight: 100;
+    padding: 15vw;
+    color: white;
+}
+
+li {
+    padding: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+     padding-left: 2%;
+}
+
+a.vacio:hover {
+    text-decoration: line-through;
+}
+
+a.funcional:hover {
+    color: mediumpurple;
+    text-decoration: underline;
+}
+
+ul.menu {
+    list-style-type: none;
+}
+
+li.menu {
+    display: inline;
+    font-size: 32px;
+}
+
+a.funcional2:link {
+    color:aqua;
+}
+
+a.funcional2:visited {
+    color:aquamarine;
+}
+
+a.funcional2:hover {
+    color:white;
+    text-decoration: underline;
+}
+
+a.funcional2:active {
+    color:indianred;
+}
+
+header {
+    width: auto;
+    height: 10%;
+    background-color: black;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    position: sticky;
+    top: 0;
+    }

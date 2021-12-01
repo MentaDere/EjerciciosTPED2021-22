@@ -1,0 +1,54 @@
+body {
+    background-color: antiquewhite;
+}
+.caja {
+    box-sizing: border-box;
+    border: 2px dashed black;
+    width: 33%;
+    height: 33%;
+    display: inline-block;
+    margin: 4px 2px 4px 0px;
+    padding: 5px;
+    background-color: white;
+}
+
+
+h1 {
+    text-align: center;
+}
+
+#caja1 {
+    font-family: "Audiowide";
+}
+
+#caja2 {
+    font-family: "Amaranth";
+}
+
+#caja3 {
+    font-family: "MuseoModerno";
+}
+
+#caja4 {
+    font-family: "Outfit";
+}
+
+#caja5 {
+    font-family: "Yellowtail";
+}
+
+#caja6 {
+    font-family: "Kodchasan";
+}
+
+#caja7 {
+    font-family: "Merriweather";
+}
+
+#caja8 {
+    font-family: "Ubuntu";
+}
+
+#caja9 {
+    font-family: "Lora";
+}

@@ -1,6 +1,17 @@
 .boton {
-    border: 5px;
+    border: 10px;
     border-radius: 5px;
     background-color: deepskyblue;
     color: white;
+    box-sizing: content-box;
+}
+
+body {
+    background-image: url(imgs/fondo-1400x860.jpg);
+    background-repeat: no-repeat;
+    background-color: gray;
+}
+
+a {
+    text-decoration: none;
 }

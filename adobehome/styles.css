@@ -1,17 +1,96 @@
 .boton {
     border: 10px;
     border-radius: 5px;
-    background-color: deepskyblue;
+    background-color: dodgerblue;
     color: white;
     box-sizing: content-box;
+    width: 100px;
+    height: auto;
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.boton:hover {
+    background-color: darkblue;
 }
 
 body {
     background-image: url(imgs/fondo-1400x860.jpg);
+    background-size: cover;
     background-repeat: no-repeat;
     background-color: gray;
+    font-family: 'Gill Sans', 'Gill Sans MT', sans-serif;
 }
 
 a {
     text-decoration: none;
+}
+
+a:hover {
+    color: aqua;
+}
+
+h1 {
+    font-weight: normal;
+}
+
+.texto {
+    padding-left: 100px;
+    box-sizing: content-box;
+    width: 400px;
+    position: absolute;
+    top: 100px;
+}
+
+
+.menu {
+    display: flex;
+    flex-direction: row-reverse;
+    position: absolute;
+    right: 16px;
+}
+
+.menu > div {
+    color: gainsboro;
+    margin: 10px;
+}
+.menu > img {
+    position: fixed;
+    left: 100px;
+    top: 0;
+}
+
+.descripcion {
+    position: absolute;
+    right: 200px;
+    bottom: 100px;
+}
+
+.icono {
+    margin: 5px;
+    width: 30px;
+    height: auto;
+}
+
+.ofertas {
+    color: goldenrod;
+}
+
+.blanco {
+    color: white;
+}
+
+.bajo {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: #111111;
+      margin-left: 10px; /* igual que main, no lo pongo dentro porque main es flex */
+    margin-right: 10px;
+    background-image: url(imgs/barra.png);
+    color: white;
+    padding: 2em;
+    padding-left: 100px;
+    padding-right: 54em;
 }

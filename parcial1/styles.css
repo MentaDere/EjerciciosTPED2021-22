@@ -1,7 +1,48 @@
+body {
+    font-family: Verdana, sans-serif;
+}
 h1 {
     font-family: Verdana, sans-serif;
 }
 
 h2 {
     font-family: Verdana, sans-serif;
+}
+
+.nombre {
+    font-family: 'Times New Roman', serif;
+    font-size: 200%;
+    color: orangered;
+}
+
+.boton {
+    border: 10px;
+    border-radius: 5px;
+    background-color: orangered;
+    color: white;
+    box-sizing: content-box;
+    width: 100px;
+    height: auto;
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.boton:hover {
+    background-color: darkred;
+}
+
+a:hover {
+    right: 5px;
+}
+
+.flex {
+    display: inline-flex;
+    flex-direction: row-reverse;
+}
+
+ul {
+    list-style-type: none;
+    display: inherit;
+    margin: 5px;
 }
